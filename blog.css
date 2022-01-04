@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    height: 60vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(blog.jpg);
+    background-size: 100% 100%;
+}
+.container h1{
+    width: 550px;
+    margin: auto;
+    padding-top: 200px;
+    color: #fff;
+    font-size: 43px;
+}
+.container p{
+    width: 550px;
+    margin: auto;
+    color: #fff;
+    font-size: 18px; 
+}
+.main h1{
+
+    width: 210px;
+    margin: 20px auto;
+    margin-left: 600px;
+    color: black;
+    font-size: 43px;
+    
+    
+}
+
+.main p{
+
+    width: 600px;
+    margin: 15px auto;
+    margin-left: 450px;
+    color: rgb(61, 58, 58);
+
+}
+.img-block{
+
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    margin: auto;
+    
+    
+}
+.img-block img {
+    flex-basis: 34;
+    width: 470px;
+    height: 350px;
+    margin-left: 14px;
+    /* border: 2px solid orange;
+    border-radius: 3px;
+    padding: 7px; */
+    transition: .5s ease-out;
+    border-radius: 10px;
+}
+ .img-block img:hover {
+    /* box-shadow: 0 0 2px 2px blue; */
+    width: 520px;
+    height: 380px;
+ }
+.content{
+    width: 50%;
+    margin-right: 30px;
+}
+ h3{
+    font-size: 28px;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+.footer{
+    width: 80%;
+    padding: 34px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    /* margin-left: 550px; */
+    /* background-color: rgb(107,    101, 101); */
+}
+.footer p{
+
+    width: 400px;
+    margin: auto;
+    margin-left: 650px;
+}
+.place{
+    /* width:450px;
+    margin:auto; */
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+}
+.place h2{
+    width:450px;
+    margin:auto;
+   font-size: 34px;
+   text-shadow: 2px 2px rgb(73, 65, 65);
+   
+
+}
+
+.place .image{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    width: 80%;
+    margin:23px auto;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    flex-basis: auto;
+    margin-left: 180px;
+
+
+
+}
+img{
+
+    width:380px;
+    height: 360px;
+    transition: 0.2s;
+    margin-bottom: 34PX;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+
+img:hover{
+    border: 2px solid blue;
+    
+}
